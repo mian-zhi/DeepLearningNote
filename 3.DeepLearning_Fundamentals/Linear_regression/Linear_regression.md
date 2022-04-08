@@ -13,6 +13,7 @@
 #### 1.1 模型定义
 
 ​	我们设：
+
 $$
 \begin{cases}
   x_1 : Hourse\ area  
@@ -20,17 +21,22 @@ $$
 \\y\ \ : Hourse\ price
 \end{cases}
 $$
+
 ​	则其线性关系为：
+
 $$
 \hat{y} = x_1\omega_1 + x_2\omega_2 + b
 $$
+
 ​	其中：
+
 $$
 \begin{cases}
   \omega_i : weight  
 \\b\ \ : bias
 \end{cases}
 $$
+
 ​	而 $\hat{y}$ 是预测值，允许其与真实值有一定的误差。
 
 #### 1.2 模型训练
